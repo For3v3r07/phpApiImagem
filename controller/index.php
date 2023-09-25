@@ -8,7 +8,8 @@ $url = explode('/', @$_GET['url']);
 $rotas = [
     "veiculo"   => "veiculo.php",
     "montadora" => "montadora.php",
-    "categoria" => "categoria.php"
+    "categoria" => "categoria.php",
+    "upload"    => "upload.php"
 ];
 
 # Direcionando a aplicação para a rota especifica.
