@@ -1,5 +1,5 @@
 <?php
-class upload {
+class Upload {
     private $arquivo;
     private $dir_destino;
     

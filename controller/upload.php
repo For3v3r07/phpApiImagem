@@ -1,7 +1,7 @@
 <?php
-require_once 'model/upload.php';
+require_once 'model/Upload.php';
 $arquivo = $_FILES['arquivo'];
-$up = new upload($arquivo,'assets/img');
+$up = new Upload($arquivo,'imagem_logo');
 $result = $up->salvarImagem();
 if($result){
     http_response_code(200);
